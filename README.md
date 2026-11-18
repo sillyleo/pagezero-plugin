@@ -49,7 +49,7 @@ For Claude Code:
 
 ```sh
 claude plugin uninstall pagezero@pagezero --keep-data
-claude plugin marketplace remove pagezero --scope user
+claude plugin marketplace remove pagezero
 ```
 
 ## Included skills
