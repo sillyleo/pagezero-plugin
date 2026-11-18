@@ -1,0 +1,9 @@
+{
+  "name": "pagezero",
+  "version": "0.1.2",
+  "description": "Audit websites, track visibility, improve content, and install the Page Zero SDK.",
+  "author": {
+    "name": "Solo Works"
+  },
+  "homepage": "https://getpagezero.com"
+}

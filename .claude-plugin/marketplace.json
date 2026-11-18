@@ -1,0 +1,14 @@
+{
+  "name": "pagezero",
+  "description": "Connect Claude Code to Page Zero MCP and its website skills.",
+  "owner": {
+    "name": "Solo Works"
+  },
+  "plugins": [
+    {
+      "name": "pagezero",
+      "source": "./plugins/pagezero",
+      "description": "Audit websites, track visibility, improve content, and install the Page Zero SDK."
+    }
+  ]
+}
