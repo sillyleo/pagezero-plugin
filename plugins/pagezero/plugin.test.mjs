@@ -40,8 +40,8 @@ test("both hosts share the HTTP connection without bundled credentials", () => {
   for (const key of ["headers", "env", "command", "args", "clientSecret"]) assert.equal(key in server, false);
 });
 
-test("all five public workflows ship inside the plugin with explicit site selection", () => {
-  const names = ["pagezero-content-improvement", "pagezero-sdk-installation", "pagezero-site-audit", "pagezero-traffic-reporting", "pagezero-visibility-tracking"];
+test("all public workflows ship inside the plugin with explicit site selection", () => {
+  const names = ["pagezero-content-improvement", "pagezero-page-research", "pagezero-sdk-installation", "pagezero-site-audit", "pagezero-traffic-reporting", "pagezero-visibility-tracking"];
   assert.deepEqual(readdirSync(resolve(root, "skills")).sort(), names);
   for (const name of names) {
     const file = realpathSync(resolve(root, "skills", name, "SKILL.md"));

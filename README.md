@@ -1,6 +1,6 @@
 # Page Zero plugin
 
-Connect Codex or Claude Code to Page Zero to audit websites, check traffic and visibility, improve content, and install the SDK. The plugin includes five skills and connects to the hosted Page Zero MCP server.
+Connect Codex or Claude Code to Page Zero to audit websites, check traffic and visibility, improve content, and install the SDK. The plugin includes six skills and connects to the hosted Page Zero MCP server.
 
 ## Install
 
@@ -57,6 +57,7 @@ claude plugin marketplace remove pagezero
 | Skill | What it helps you do |
 | --- | --- |
 | `pagezero-sdk-installation` | Install or verify the Page Zero SDK on a website. |
+| `pagezero-page-research` | Research customer questions and keywords for a page and save the brief to its site Wiki. |
 | `pagezero-site-audit` | Run a site audit or review existing findings. |
 | `pagezero-traffic-reporting` | Read crawler, referral, and GA4 traffic data. |
 | `pagezero-visibility-tracking` | Review and manage keyword and AI visibility tracking. |
